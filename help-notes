@@ -1,0 +1,27 @@
+1.composer create-project laravel/laravel name
+2.php artisan serve
+set database
+3. php artisan make:controller name
+then go routes web.php
+then write controller 
+creat folder resourece->view
+4. php artisan make:model model_name
+creat layout on views folder
+then go app->provider->appserviceprovide.php->(for paginator)
+
+---migration-- 
+ go database for all migration step
+5. php artisan make:migration creat_book_tale
+6. php artisan migrate
+7. php artisan migrate:rollback ->for(rest migration)
+go seeders follder
+8.php artisan make:factory FactoryName
+then write factory
+then migrate rollback command
+follow step 6
+9.php artisan db:seed
+
+
+
+ 
+
